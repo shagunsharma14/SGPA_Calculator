@@ -8,39 +8,39 @@ class marks{
 	void analyse() {
 		System.out.println("Maths : ");
 		int mat = sc.nextInt();
-		mat1 = checkGradePoint(mat)*3; //storing "gradePoint+creditPoint value
+		mat1 = checkGradePoint(mat)*3; //storing "gradePoint*creditPoint value
 
 		System.out.println("DS: ");
 		int ds = sc.nextInt();
-		 ds1 = checkGradePoint(ds) *4; //storing "gradePoint+creditPoint value
+		 ds1 = checkGradePoint(ds) *4; //storing "gradePoint*creditPoint value
 	
 		System.out.println("ADE: ");
 		int ade = sc.nextInt();
-		 ade1 = checkGradePoint(ade)*3; //storing "gradePoint+creditPoint value
+		 ade1 = checkGradePoint(ade)*3; //storing "gradePoint*creditPoint value
 		 
 		System.out.println("CO: ");
 		int co = sc.nextInt();
-		 co1 = checkGradePoint(co)*3; //storing "gradePoint+creditPoint value
+		 co1 = checkGradePoint(co)*3; //storing "gradePoint*creditPoint value
 		 
 		System.out.println("SE: ");
 		int se= sc.nextInt();
-		 se1 = checkGradePoint(se)*3; //storing "gradePoint+creditPoint value
+		 se1 = checkGradePoint(se)*3; //storing "gradePoint*creditPoint value
 		 
 		System.out.println("DMS: ");
 		int dms = sc.nextInt();
-		 dms1 = checkGradePoint(dms)*3; //storing "gradePoint+creditPoint value
+		 dms1 = checkGradePoint(dms)*3; //storing "gradePoint*creditPoint value
 		 
 		System.out.println("DSL: ");
 		int dsl = sc.nextInt();
-		 dsl1 = checkGradePoint(dsl)*2; //storing "gradePoint+creditPoint value
+		 dsl1 = checkGradePoint(dsl)*2; //storing "gradePoint*creditPoint value
 		 
 		System.out.println("ADEL: ");
 		int adel = sc.nextInt();
-		 adel1 = checkGradePoint(adel)*2; //storing "gradePoint+creditPoint value
+		 adel1 = checkGradePoint(adel)*2; //storing "gradePoint*creditPoint value
 		 
 		System.out.println("CPS: ");
 		int cps = sc.nextInt();
-		 cps1 = checkGradePoint(cps)*1; //storing "gradePoint+creditPoint value
+		 cps1 = checkGradePoint(cps)*1; //storing "gradePoint*creditPoint value
 		
 	}
 	//Searching for the respective  grade point value 
